@@ -1,0 +1,41 @@
+body {
+    background-color: #d9bfdd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    transition: 5s linear 1s;
+}
+
+#img-form {
+    padding: 50px 8px 30px 8px;
+    margin-top: 10%;
+    border-radius: 15px;
+    background:#d9bfdd;
+    transition: 10s cubic-bezier(0.1, -0.15, 1, 1);
+}
+
+#img-form:hover{
+    background: radial-gradient(ellipse closest-side,#ffffffa1, #d9bfdd);
+}
+
+#hex-field {
+    border-radius: 5px;
+    border: 1px dotted#522f58;
+    height: 20px;
+}
+
+#submit-btn{
+    background-color: #fdf2ff;
+    border: 1px dotted#522f58;
+    border-radius: 5px;
+    transition: 0.3s cubic-bezier(0.82, 0.21, 1, 1);
+}
+
+#submit-btn:hover {
+    background-color: #5e4863;
+    color: #fdf2ff;
+}
+
+.wb-items {
+    color: azure;
+}
