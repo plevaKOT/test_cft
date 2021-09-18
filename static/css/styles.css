@@ -10,7 +10,6 @@ body {
     margin-top: 10%;
     border-radius: 15px;
     background:#d9bfdd;
-    transition: 10s linear;
 }
 
 #img-form:hover{
