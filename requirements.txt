@@ -1,2 +1,4 @@
 flask==1.1.2
 python-json-logger==2.0.2
+matplotlib
+opencv-python==4.5.3.56

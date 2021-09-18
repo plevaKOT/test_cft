@@ -18,12 +18,13 @@
 </div>
 <form id="img-form" enctype="multipart/form-data" method="post" action="get_colors">
 
-    <h1> Выберите картинку jpg </h1>
+    <h1> Выберите картинку  </h1>
 
     <h1>
-        <input type="file" name="photo" multiple accept="image/*,image/jpeg" required>
+        <input id="dow-pict" type="file" name="photo" multiple accept="image/*,image/jpeg" required>
 
         <h1> Введите hex цвет искомого пикселя  </h1>
+        
         <input id="hex-field" name="hex" type="text" required>    
         <p>
             <input id="submit-btn" type="submit" value="Отправить">
